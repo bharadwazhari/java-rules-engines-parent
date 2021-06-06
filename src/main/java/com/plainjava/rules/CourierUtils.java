@@ -2,8 +2,10 @@ package com.plainjava.rules;
 
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
+import org.apache.commons.collections4.CollectionUtils;
 import org.apache.commons.lang3.Range;
 import org.apache.commons.lang3.StringUtils;
+import org.graalvm.util.CollectionsUtil;
 
 import java.math.BigDecimal;
 import java.math.RoundingMode;
@@ -41,6 +43,7 @@ public class CourierUtils {
     }
 
     public static String economicalCourier(List<CourierDelivery> inlist) {
+        if(CollectionUtils.isEmpty(inlist)) return "NO COURIER SERVICE AVAILABLE";
         List<CourierDelivery> sortedByTotalPriceList = sortCourierDeliveryObjects(inlist);
         CourierDelivery top = sortedByTotalPriceList.get(0);
         return top.getRuleApplied();

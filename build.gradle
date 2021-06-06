@@ -17,6 +17,7 @@ dependencies {
     implementation group: 'org.mvel', name: 'mvel2', version: '2.1.6.Final'
     implementation group: 'joda-time', name: 'joda-time', version: '2.10.10'
     implementation group: 'org.apache.commons', name: 'commons-lang3', version: '3.12.0'
+    implementation group: 'org.apache.commons', name: 'commons-collections4', version: '4.4'
     compileOnly 'org.projectlombok:lombok:1.18.20'
     annotationProcessor 'org.projectlombok:lombok:1.18.20'
     testCompileOnly 'org.projectlombok:lombok:1.18.20'
