@@ -1,0 +1,45 @@
+---
+name: Bobby Rule
+description: when working hours are 9:00 AM to 1:00 PM, 5 miles, has refrigerator, charge per mile $1.75
+condition: "java.time.format.DateTimeFormatter format = java.time.format.DateTimeFormatter.ofPattern(\"hh:mm a\");
+            java.time.LocalTime startTime = java.time.LocalTime.parse(\"09:00 AM\", format);
+            java.time.LocalTime endTime = java.time.LocalTime.parse(\"01:00 PM\", format);
+            java.lang.Integer stime = java.lang.Integer.valueOf(startTime.get(java.time.temporal.ChronoField.MILLI_OF_DAY));
+            java.lang.Integer etime = java.lang.Integer.valueOf(endTime.get(java.time.temporal.ChronoField.MILLI_OF_DAY));
+            (stime <= input.getDeliveryTimeInMillis() && input.getDeliveryTimeInMillis() <= etime)
+            && input.getDestinationDistance() <= 5 && input.getHasRefrigerator() == 'Y'"
+actions:
+  - "com.rules.engine.mvel.CourierOutput cout = new com.rules.engine.mvel.CourierOutput();
+     cout.setOrderId(input.getOrderId);
+     cout.setRuleApplied(\"Bobby Rule\");
+     cout.setPerMilePrice(\"$1.75\");
+     java.math.BigDecimal totalCost = new java.math.BigDecimal(1.75).multiply(new java.math.BigDecimal(5)).setScale(2, java.math.RoundingMode.HALF_EVEN);
+     cout.setTotalCost(totalCost);
+     cout.setOrderDeliveryTime(input.getDeliveryTime());
+     cout.setIsRefrigeratorRequired('Y');
+     System.out.println(\"COUT:\"+cout);
+     input.setCout(cout);"
+---
+name: Martin Rule
+description: when working hours are 9:00 AM to 5:00 PM, 3 miles, no refrigerator, charge per mile $1.50
+condition: "java.time.format.DateTimeFormatter format = java.time.format.DateTimeFormatter.ofPattern(\"hh:mm a\");
+            java.time.LocalTime startTime = java.time.LocalTime.parse(\"09:00 AM\", format);
+            java.time.LocalTime endTime = java.time.LocalTime.parse(\"05:00 PM\", format);
+            java.lang.Integer stime = java.lang.Integer.valueOf(startTime.get(java.time.temporal.ChronoField.MILLI_OF_DAY));
+            java.lang.Integer etime = java.lang.Integer.valueOf(endTime.get(java.time.temporal.ChronoField.MILLI_OF_DAY));
+            (stime <= input.getDeliveryTimeInMillis() && input.getDeliveryTimeInMillis() <= etime)
+            && input.getDestinationDistance() <= 3 && input.getHasRefrigerator() == 'N'"
+actions:
+  - "input.setOutput('Y');"
+---
+name: Geoff Rule
+description: when working hours are 10:00 AM to 4:00 PM, 4 miles, has refrigerator, charge per mile $2.00
+condition: "java.time.format.DateTimeFormatter format = java.time.format.DateTimeFormatter.ofPattern(\"hh:mm a\");
+            java.time.LocalTime startTime = java.time.LocalTime.parse(\"10:00 AM\", format);
+            java.time.LocalTime endTime = java.time.LocalTime.parse(\"04:00 PM\", format);
+            java.lang.Integer stime = java.lang.Integer.valueOf(startTime.get(java.time.temporal.ChronoField.MILLI_OF_DAY));
+            java.lang.Integer etime = java.lang.Integer.valueOf(endTime.get(java.time.temporal.ChronoField.MILLI_OF_DAY));
+            (stime <= input.getDeliveryTimeInMillis() && input.getDeliveryTimeInMillis() <= etime)
+            && input.getDestinationDistance() <= 4 && input.getHasRefrigerator() == 'Y'"
+actions:
+  - "input.setOutput('Y');"
