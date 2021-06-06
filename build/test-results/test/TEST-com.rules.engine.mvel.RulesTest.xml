@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.rules.engine.mvel.RulesTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-06-05T18:37:18" hostname="centrifugecorp-work-pc" time="0.969">
+  <properties/>
+  <testcase name="fireRule()" classname="com.rules.engine.mvel.RulesTest" time="0.969"/>
+  <system-out><![CDATA[COUT:CourierOutput(orderId=101, ruleApplied=Bobby Rule, perMilePrice=$1.75, totalCost=8.75, orderDeliveryTime=10:30 AM, isRefrigeratorRequired=Y)
+{
+  "orderId" : 101,
+  "deliveryTime" : "10:30 AM",
+  "deliveryTimeInMillis" : 37800000,
+  "destinationDistance" : 3,
+  "hasRefrigerator" : "Y",
+  "cout" : {
+    "orderId" : 101,
+    "ruleApplied" : "Bobby Rule",
+    "perMilePrice" : "$1.75",
+    "totalCost" : 8.75,
+    "orderDeliveryTime" : "10:30 AM",
+    "isRefrigeratorRequired" : "Y"
+  }
+}
+]]></system-out>
+  <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+]]></system-err>
+</testsuite>

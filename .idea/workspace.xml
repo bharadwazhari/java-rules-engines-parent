@@ -1,0 +1,404 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="2b5c6b1e-eb58-467a-a9f8-7b96dcc5ca26" name="Default Changelist" comment="exercise commit">
+      <change afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileChanges/last-build.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileContent/fileContent.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/resourceHashesCache.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/5.2.1/gc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/classAnalysis.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/jarAnalysis.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/javaCompile.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/taskHistory.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/vcs-1/gc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/plainjava/rules/BobbyRule.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/plainjava/rules/CourierDelivery.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/plainjava/rules/CourierUtils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/plainjava/rules/GeoffRule.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/plainjava/rules/IRule.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/plainjava/rules/InputOrder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/plainjava/rules/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/plainjava/rules/MartinRule.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/plainjava/rules/RulesEngine.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/rules/engine/bo/Courier.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/rules/engine/constants/SweetTreats.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/rules/engine/mvel/CourierOutput.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/rules/engine/mvel/FactInput.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/test/com/rules/engine/bo/CourierTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/test/com/rules/engine/examples/ExampleTests.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/test/com/rules/engine/mvel/RulesTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/libs/java-rules-engines-parent-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/test/classes/com.rules.engine.mvel.RulesTest.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/test/css/base-style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/test/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/test/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/test/js/report.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/test/packages/com.rules.engine.mvel.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/resources/test/mvel-courier-rules.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/resources/test/weather-rule.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/test-results/test/TEST-com.rules.engine.mvel.RulesTest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/test-results/test/binary/output.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/test-results/test/binary/output.bin.idx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tmp/jar/MANIFEST.MF" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="java-rules-engines-parent" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="java-rules-engines-parent" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="java-rules-engines-parent" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="build" type="c8890929:TasksNode$1" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1tVTIrXuOutDVi2mLGMxci8u6zc" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/test/resources" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.annotationProcessors" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\softwares\java-rules-engines-parent\src\test\resources" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.plainjava.rules.Main" />
+      <module name="java-rules-engines-parent.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.plainjava.rules.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ExampleTests.bigDecimalTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;com.rules.engine.examples.ExampleTests.bigDecimalTest&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":cleanTest" />
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="ExampleTests.testRangeOfChars" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;com.rules.engine.examples.ExampleTests.testRangeOfChars&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":cleanTest" />
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="ExampleTests.testRangeOfTimePeriod" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;com.rules.engine.examples.ExampleTests.testRangeOfTimePeriod&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":cleanTest" />
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="RulesTest.fireRule" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;com.rules.engine.mvel.RulesTest.fireRule&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":cleanTest" />
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Gradle.RulesTest.fireRule" />
+        <item itemvalue="Gradle.ExampleTests.bigDecimalTest" />
+        <item itemvalue="Gradle.ExampleTests.testRangeOfTimePeriod" />
+        <item itemvalue="Gradle.ExampleTests.testRangeOfChars" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2b5c6b1e-eb58-467a-a9f8-7b96dcc5ca26" name="Default Changelist" comment="" />
+      <created>1622853179644</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1622853179644</updated>
+    </task>
+    <task id="LOCAL-00001" summary="exercise commit">
+      <created>1623001547576</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1623001547576</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="exercise commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="exercise commit" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="574" y="105" key="#com.intellij.ide.util.MemberChooser" timestamp="1622940618485">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="574" y="105" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1622940618485" />
+    <state x="499" y="162" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1622921118630">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="499" y="162" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824@0.0.1536.824" timestamp="1622921118630" />
+    <state x="348" y="10" key="CommitChangelistDialog2" timestamp="1623001711940">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="348" y="10" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1623001711940" />
+    <state x="607" y="329" width="345" height="165" key="Github.CreateGistDialog" timestamp="1623000117773">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="607" y="329" width="345" height="165" key="Github.CreateGistDialog/0.0.1536.824@0.0.1536.824" timestamp="1623000117773" />
+    <state width="1493" height="255" key="GridCell.Tab.0.bottom" timestamp="1622999869305">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="255" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1622999869305" />
+    <state width="1493" height="255" key="GridCell.Tab.0.center" timestamp="1622999869304">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="255" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1622999869304" />
+    <state width="1493" height="255" key="GridCell.Tab.0.left" timestamp="1622999869303">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="255" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1622999869303" />
+    <state width="1493" height="255" key="GridCell.Tab.0.right" timestamp="1622999869304">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="255" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1622999869304" />
+    <state width="1493" height="261" key="GridCell.Tab.1.bottom" timestamp="1622926384055">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="261" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1622926384055" />
+    <state width="1493" height="261" key="GridCell.Tab.1.center" timestamp="1622926384054">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="261" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1622926384054" />
+    <state width="1493" height="261" key="GridCell.Tab.1.left" timestamp="1622926384054">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="261" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1622926384054" />
+    <state width="1493" height="261" key="GridCell.Tab.1.right" timestamp="1622926384055">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="261" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1622926384055" />
+    <state x="279" y="57" key="SettingsEditor" timestamp="1622939474727">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="279" y="57" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1622939474727" />
+    <state x="361" y="148" key="Vcs.Push.Dialog.v2" timestamp="1623001921284">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="361" y="148" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1623001921284" />
+    <state x="343" y="151" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1622898537171">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="343" y="151" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1536.824@0.0.1536.824" timestamp="1622898537171" />
+    <state x="93" y="93" width="1350" height="638" key="dock-window-1" timestamp="1622929067145">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="93" y="93" width="1350" height="638" key="dock-window-1/0.0.1536.824@0.0.1536.824" timestamp="1622929067145" />
+    <state x="93" y="93" width="1350" height="638" key="dock-window-2" timestamp="1622929067145">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="93" y="93" width="1350" height="638" key="dock-window-2/0.0.1536.824@0.0.1536.824" timestamp="1622929067145" />
+    <state x="474" y="173" width="711" height="536" key="find.popup" timestamp="1622928874126">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="474" y="173" width="711" height="536" key="find.popup/0.0.1536.824@0.0.1536.824" timestamp="1622928874126" />
+    <state x="579" y="318" key="git4idea.ui.GitResetDialog" timestamp="1623002169524">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="579" y="318" key="git4idea.ui.GitResetDialog/0.0.1536.824@0.0.1536.824" timestamp="1623002169524" />
+    <state x="209" y="30" key="new project wizard" timestamp="1622857052926">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="209" y="30" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1622857052926" />
+    <state x="425" y="187" key="run.anything.popup" timestamp="1622868449075">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="425" y="187" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1622868449075" />
+    <state x="431" y="145" key="search.everywhere.popup" timestamp="1622928875895">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="431" y="145" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1622928875895" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/rules/engine/examples/ExampleTests.java</url>
+          <line>35</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/rules/engine/examples/ExampleTests.java</url>
+          <line>42</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/rules/engine/bo/CourierTest.java</url>
+          <line>28</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/rules/engine/mvel/RulesTest.java</url>
+          <line>30</line>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/rules/engine/mvel/RulesTest.java</url>
+          <line>24</line>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+      </breakpoints>
+      <default-breakpoints>
+        <breakpoint type="python-exception">
+          <properties notifyOnTerminate="true" exception="BaseException">
+            <option name="notifyOnTerminate" value="true" />
+          </properties>
+        </breakpoint>
+      </default-breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="Remote">
+        <watch expression="courier1" />
+      </configuration>
+    </watches-manager>
+  </component>
+</project>
