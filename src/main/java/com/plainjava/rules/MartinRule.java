@@ -35,7 +35,7 @@ public class MartinRule implements IRule<InputOrder, CourierDelivery> {
         out.setPerMilePrice(costPerMile);
         out.setTotalCostInDollar(NumberFormat.getCurrencyInstance(Locale.US).format(totalCost));
         out.setOrderDeliveryTime(input.getDeliveryTime());
-        out.setIsRefrigeratorRequired('Y');
+        out.setIsRefrigeratorRequired(input.getRefrigeratorRequired());
         return out;
     }
 }
